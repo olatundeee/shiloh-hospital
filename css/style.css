@@ -340,6 +340,11 @@ menu_text {
 
 /* banner section start */
 
+.container-us {
+    padding-left: 10vw;
+    padding-right: 10vw;
+}
+
 .banner_section {
     width: 100%;
     float: left;
@@ -347,8 +352,16 @@ menu_text {
 }
 
 .banner_img {
-    width: 80%;
+    width: 50vh;
     text-align: center;
+    height: 50vh;
+}
+
+.banner_img img {
+    border-radius: 50%;
+    width: 50vh;
+    text-align: center;
+    height: 50vh;
 }
 
 .banner_taital {
@@ -461,8 +474,8 @@ menu_text {
 }
 
 .hands_text {
-    width: 61%;
-    font-size: 30px;
+    width: 70%;
+    font-size: 1.5rem;
     color: #081419;
     text-align: center;
     font-weight: bold;
@@ -488,8 +501,8 @@ menu_text {
 }
 
 .hands_text_2 {
-    width: 50%;
-    font-size: 30px;
+    width: 60%;
+    font-size: 1.5rem;
     color: #081419;
     text-align: center;
     font-weight: bold;
@@ -599,6 +612,15 @@ menu_text {
     color: #000;
 }
 
+.about_img {
+    text-align: center;
+}
+
+.about_img img {
+    border-radius: 50%;
+    width: 50vh;
+    height: 50vh;
+}
 
 
 /* about section end */
@@ -634,11 +656,11 @@ menu_text {
 }
 
 .doctor_text {
-    width: 50%;
+    width: 100%;
     float: left;
     font-size: 14px;
     color: #fefefd;
-    margin: 0px;
+    margin: 1vh auto;
 }
 
 .readmore_bt {
@@ -756,6 +778,22 @@ menu_text {
     top: -20px;
 }
 
+.image_1 img {
+    width: 75%;
+    height: 75%;
+    margin: auto;
+}
+
+.image_2 {
+    text-align: center;
+}
+
+.image_2 img {
+    width: 75%;
+    height: 75%;
+    border-radius: 50%;
+    margin: auto;
+}
 
 .lorem_text {
     width: 100%;
@@ -763,6 +801,7 @@ menu_text {
     color: #081419;
     text-align: center;
     margin: 0 auto;
+    padding-bottom: 5vh;
 }
 
 .read_btn {
