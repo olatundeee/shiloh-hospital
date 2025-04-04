@@ -12,22 +12,22 @@ const facilities: Facility[] = [
   {
     title: "Laboratory",
     description: "Our state-of-the-art laboratory is equipped with the latest technology for accurate diagnostics and testing. We provide comprehensive laboratory services for a wide range of medical tests.",
-    image: "/public/laboratory.jpeg",
+    image: "/laboratory.jpeg",
   },
   {
     title: "Serene Environment",
     description: "We understand the importance of a healing environment. Our hospital offers a peaceful and serene atmosphere that promotes recovery and wellbeing for all patients.",
-    image: "/public/serene-env.jpeg",
+    image: "/serene-env.jpeg",
   },
   {
     title: "Operating Room",
     description: "Our modern surgical theaters are equipped with advanced medical equipment and maintained under strict sterile conditions to ensure successful surgical procedures.",
-    image: "/public/surgery-theatre.jpeg",
+    image: "/surgery-theatre.jpeg",
   },
   {
     title: "Drug Repository",
     description: "Our in-house pharmacy stocks a comprehensive range of medications, ensuring that prescribed treatments are readily available for our patients without delay.",
-    image: "/public/our-vision.jpeg",
+    image: "/shiloh-repo.jpeg",
   },
 ];
 

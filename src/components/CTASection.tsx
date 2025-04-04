@@ -8,7 +8,7 @@ const CTASection = () => {
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/public/third-slide.jpeg" 
+          src="/third-slide.jpeg" 
           alt="Healthcare" 
           className="w-full h-full object-cover"
         />

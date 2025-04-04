@@ -8,7 +8,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
           {/* Column 1: About */}
           <div>
-            <h3 className="text-xl font-serif font-semibold mb-6">Shiloh Hospital</h3>
+            <h3 className="text-xl font-serif font-semibold mb-6">Shiloh Medical Centre And Maternity</h3>
             <p className="text-muted-foreground mb-6">
               Providing quality healthcare services with compassion and excellence since 2010. 
               Our mission is to deliver exceptional care in a healing environment.
@@ -124,7 +124,7 @@ const Footer = () => {
               </div>
               <div className="flex">
                 <Phone className="h-5 w-5 text-primary mr-3 flex-shrink-0" />
-                <p className="text-muted-foreground">+234 803 123 4567</p>
+                <p className="text-muted-foreground">+234 803 573 4000</p>
               </div>
               <div className="flex">
                 <Mail className="h-5 w-5 text-primary mr-3 flex-shrink-0" />
@@ -145,7 +145,7 @@ const Footer = () => {
         <div className="mt-12 pt-8 border-t border-border">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <p className="text-muted-foreground text-sm mb-4 md:mb-0">
-              © {new Date().getFullYear()} Shiloh Hospital. All rights reserved.
+              © {new Date().getFullYear()} Shiloh Medical Centre And Maternity. All rights reserved.
             </p>
             <div className="flex space-x-6">
               <a href="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors">

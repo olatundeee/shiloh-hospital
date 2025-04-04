@@ -24,7 +24,7 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <a href="/" className="flex items-center">
-              <span className={`text-2xl font-serif font-bold ${isScrolled ? 'text-primary' : 'text-white'}`}>Shiloh Hospital</span>
+              <span className={`text-2xl font-serif font-bold ${isScrolled ? 'text-primary' : 'text-white'}`}>Shiloh</span>
             </a>
           </div>
           
@@ -62,7 +62,7 @@ const Navbar = () => {
         <div className="px-4 py-6 border-t border-border">
           <div className="flex items-center mb-4">
             <Phone className="h-5 w-5 text-primary mr-2" />
-            <span className="text-sm">+234 803 123 4567</span>
+            <span className="text-sm">+234 803 573 4000</span>
           </div>
           <div className="flex items-center">
             <Mail className="h-5 w-5 text-primary mr-2" />

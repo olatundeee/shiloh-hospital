@@ -198,7 +198,7 @@ const ContactSection = () => {
             allowFullScreen
             loading="lazy"
             referrerPolicy="no-referrer-when-downgrade"
-            title="Map to Shiloh Hospital"
+            title="Map to Shiloh Medical Centre And Maternity"
           ></iframe>
         </div>
       </div>

@@ -20,21 +20,21 @@ const AboutSection = () => {
           <div className="relative grid grid-cols-2 gap-4">
             <div className="col-span-2 transform translate-y-4 opacity-0 animate-fade-in animate-delay-100" style={{ animationFillMode: 'forwards' }}>
               <img
-                src="/public/second-slide.jpeg"
+                src="/second-slide.jpeg"
                 alt="Hospital building"
                 className="rounded-lg shadow-lg object-cover h-64 w-full"
               />
             </div>
             <div className="transform translate-y-4 opacity-0 animate-fade-in animate-delay-200" style={{ animationFillMode: 'forwards' }}>
               <img
-                src="/public/principle-protect.jpeg"
+                src="/principle-protect.jpeg"
                 alt="Medical staff"
                 className="rounded-lg shadow-lg object-cover h-full w-full"
               />
             </div>
             <div className="transform translate-y-4 opacity-0 animate-fade-in animate-delay-300" style={{ animationFillMode: 'forwards' }}>
               <img
-                src="/public/doctor-bg.png"
+                src="/doctor-bg.png"
                 alt="Medical equipment"
                 className="rounded-lg shadow-lg object-cover h-full w-full"
               />
@@ -50,7 +50,7 @@ const AboutSection = () => {
               Dedicated to Providing Exceptional Healthcare Since 2010
             </h2>
             <p className="text-muted-foreground mb-6">
-              Shiloh Hospital, located at 17, Ajokakan Avenue, Elebu, Oluyole Extension, Ibadan, Nigeria, is dedicated to providing exceptional healthcare services to our community.
+              Shiloh Medical Centre And Maternity, located at 17, Ajokakan Avenue, Elebu, Oluyole Extension, Ibadan, Nigeria, is dedicated to providing exceptional healthcare services to our community.
             </p>
 
             <p className="text-muted-foreground mb-6">
@@ -62,7 +62,7 @@ const AboutSection = () => {
             </p>
 
             <p className="text-muted-foreground mb-6">
-              Equipped with modern facilities and a patient-centered approach, Shiloh Hospital strives to be a trusted partner in your healthcare journey, offering reliable and affordable medical services to meet your everyday health needs.
+              Equipped with modern facilities and a patient-centered approach, Shiloh Medical Centre And Maternity strives to be a trusted partner in your healthcare journey, offering reliable and affordable medical services to meet your everyday health needs.
             </p>
 
             <p className="text-muted-foreground mb-6">

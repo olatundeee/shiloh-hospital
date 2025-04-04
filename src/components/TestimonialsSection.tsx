@@ -3,22 +3,22 @@ import { useState, useEffect } from "react";
 
 const testimonials = [
   {
-    quote: "The care I received at Shiloh Hospital was exceptional. The medical staff was attentive, professional, and genuinely concerned about my wellbeing. I couldn't have asked for better care.",
+    quote: "The care I received at Shiloh Medical Centre And Maternity was exceptional. The medical staff was attentive, professional, and genuinely concerned about my wellbeing. I couldn't have asked for better care.",
     author: "Mrs. Chioma Okafor",
     role: "Patient",
-    image: "/public/third-slide.jpeg",
+    image: "/third-slide.jpeg",
   },
   {
-    quote: "I've been bringing my family to Shiloh Hospital for years, and the quality of care has always been outstanding. The doctors take time to listen and explain everything thoroughly. We trust them completely.",
+    quote: "I've been bringing my family to Shiloh Medical Centre And Maternity for years, and the quality of care has always been outstanding. The doctors take time to listen and explain everything thoroughly. We trust them completely.",
     author: "Mr. Adebayo Johnson",
     role: "Patient",
-    image: "/public/first-slide.jpeg",
+    image: "/first-slide.jpeg",
   },
   {
-    quote: "When I was diagnosed with a heart condition, the cardiology team at Shiloh Hospital provided not only excellent medical care but also emotional support. They made a difficult time much easier to handle.",
+    quote: "When I was diagnosed with a heart condition, the cardiology team at Shiloh Medical Centre And Maternity provided not only excellent medical care but also emotional support. They made a difficult time much easier to handle.",
     author: "Dr. Emmanuel Nweke",
     role: "Patient",
-    image: "/public/second-slide.jpeg",
+    image: "/second-slide.jpeg",
   },
 ];
 
@@ -43,7 +43,7 @@ const TestimonialsSection = () => {
             What Our Patients Say
           </h2>
           <p className="text-xl text-muted-foreground max-w-3xl mx-auto">
-            Real stories from real patients about their experience with Shiloh Hospital.
+            Real stories from real patients about their experience with Shiloh Medical Centre And Maternity.
           </p>
         </div>
         

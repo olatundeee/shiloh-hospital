@@ -7,8 +7,8 @@ const Hero = () => {
       {/* Hero Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/public/first-slide.jpeg" 
-          alt="Shiloh Hospital" 
+          src="/first-slide.jpeg" 
+          alt="Shiloh Medical Centre And Maternity" 
           className="w-full h-full object-cover"
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/40 to-black/40 mix-blend-multiply" />
@@ -26,7 +26,7 @@ const Hero = () => {
           </h1>
           
           <p className="text-lg md:text-xl opacity-90 mb-8 animate-fade-in animate-delay-200">
-            At Shiloh Hospital, we provide exceptional medical care with a personal touch. 
+            At Shiloh Medical Centre And Maternity, we provide exceptional medical care with a personal touch. 
             Our team of expert healthcare professionals is dedicated to your wellbeing.
           </p>
           
