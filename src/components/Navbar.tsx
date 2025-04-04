@@ -24,9 +24,9 @@ const Navbar = () => {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <Link to="/" className="flex items-center">
+            <a href="/" className="flex items-center">
               <span className={`text-2xl font-serif font-bold ${isScrolled ? 'text-primary' : 'text-white'}`}>Shiloh Hospital</span>
-            </Link>
+            </a>
           </div>
           
           {/* Desktop Navigation */}

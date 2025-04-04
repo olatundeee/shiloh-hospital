@@ -1,5 +1,4 @@
 
-import { Link } from "react-router-dom";
 import { Phone, Mail, MapPin, Clock, ArrowRight } from "lucide-react";
 
 const Footer = () => {
@@ -33,45 +32,45 @@ const Footer = () => {
             </div>
           </div>
           
-          {/* Column 2: Quick Links */}
+          {/* Column 2: Quick as */}
           <div>
-            <h3 className="text-xl font-serif font-semibold mb-6">Quick Links</h3>
+            <h3 className="text-xl font-serif font-semibold mb-6">Quick as</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="/" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>Home</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/about" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="/about" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>About Us</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="#services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>Services</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/departments" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="/departments" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>Departments</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/doctors" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="/doctors" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>Our Doctors</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/contact" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="/contact" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>Contact Us</span>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -81,40 +80,40 @@ const Footer = () => {
             <h3 className="text-xl font-serif font-semibold mb-6">Our Services</h3>
             <ul className="space-y-3">
               <li>
-                <Link to="/services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="#services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>General Medicine</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="#services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>Cardiology</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="#services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>Obstetrics & Gynecology</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="#services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>Pediatrics</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="#services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>Laboratory Services</span>
-                </Link>
+                </a>
               </li>
               <li>
-                <Link to="/services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="#services" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>Emergency Care</span>
-                </Link>
+                </a>
               </li>
             </ul>
           </div>
@@ -155,15 +154,15 @@ const Footer = () => {
               © {new Date().getFullYear()} Shiloh Hospital. All rights reserved.
             </p>
             <div className="flex space-x-6">
-              <Link to="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              <a href="/privacy" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                 Privacy Policy
-              </Link>
-              <Link to="/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              </a>
+              <a href="/terms" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                 Terms of Service
-              </Link>
-              <Link to="/sitemap" className="text-sm text-muted-foreground hover:text-primary transition-colors">
+              </a>
+              <a href="/sitemap" className="text-sm text-muted-foreground hover:text-primary transition-colors">
                 Sitemap
-              </Link>
+              </a>
             </div>
           </div>
         </div>

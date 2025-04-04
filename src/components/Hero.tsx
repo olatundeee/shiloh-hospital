@@ -1,6 +1,5 @@
 
 import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -33,10 +32,10 @@ const Hero = () => {
           
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in animate-delay-300">
             <Button size="lg" asChild>
-              <Link to="/contact">Book an Appointment</Link>
+              <a href="#contact">Book an Appointment</a>
             </Button>
             <Button variant="outline" size="lg" className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/20" asChild>
-              <Link to="/services">Our Services</Link>
+              <a href="#services">Our Services</a>
             </Button>
           </div>
         </div>

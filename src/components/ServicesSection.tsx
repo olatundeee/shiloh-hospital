@@ -90,19 +90,8 @@ const ServicesSection = () => {
             <div className="mb-6">{service.icon}</div>
             <h3 className="text-xl font-serif font-semibold mb-3">{service.title}</h3>
             <p className="text-muted-foreground mb-4">{service.description}</p>
-            <Button variant="link" className="p-0 text-primary font-medium group" asChild>
-              <Link to="/services">
-                Learn More <ArrowRight className="ml-2 h-4 w-4 transition-transform group-hover:translate-x-1" />
-              </Link>
-            </Button>
           </div>
         ))}
-      </div>
-      
-      <div className="mt-16 text-center">
-        <Button size="lg" asChild>
-          <Link to="/services">View All Services</Link>
-        </Button>
       </div>
     </section>
   );

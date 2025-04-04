@@ -50,10 +50,27 @@ const AboutSection = () => {
               Dedicated to Providing Exceptional Healthcare Since 1995
             </h2>
             <p className="text-muted-foreground mb-6">
-              Shiloh Hospital is a leading healthcare provider in Nigeria, committed to delivering high-quality medical services with compassion and excellence. With state-of-the-art facilities and a team of experienced healthcare professionals, we offer comprehensive care tailored to the unique needs of each patient.
+              Shiloh Hospital, located at 17, Ajokakan Avenue, Elebu, Oluyole Extension, Ibadan, Nigeria, is dedicated to providing exceptional healthcare services to our community.
             </p>
-            <p className="text-muted-foreground mb-8">
-              Our mission is to improve the health and wellbeing of our community through innovative medical care, education, and research. We strive to create a healing environment where patients feel valued, respected, and understood.
+
+            <p className="text-muted-foreground mb-6">
+              As a general-purpose hospital, we specialize in the diagnosis and treatment of a wide range of ailments, ensuring comprehensive care for patients of all ages.
+            </p>
+
+            <p className="text-muted-foreground mb-6">
+              Our team of experienced medical professionals is committed to delivering personalized, compassionate care with a focus on promoting health and wellness.
+            </p>
+
+            <p className="text-muted-foreground mb-6">
+              Equipped with modern facilities and a patient-centered approach, Shiloh Hospital strives to be a trusted partner in your healthcare journey, offering reliable and affordable medical services to meet your everyday health needs.
+            </p>
+
+            <p className="text-muted-foreground mb-6">
+              Business Registration Date: 06, October, 2010
+            </p>
+
+            <p className="text-muted-foreground mb-6">
+              Business Registration Number: RC OY48726
             </p>
             
             <div className="space-y-3 mb-8">
@@ -64,10 +81,6 @@ const AboutSection = () => {
                 </div>
               ))}
             </div>
-            
-            <Button size="lg" asChild>
-              <Link to="/about">Learn More About Us</Link>
-            </Button>
           </div>
         </div>
       </div>
