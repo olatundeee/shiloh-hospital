@@ -34,7 +34,7 @@ const AboutSection = () => {
             </div>
             <div className="transform translate-y-4 opacity-0 animate-fade-in animate-delay-300" style={{ animationFillMode: 'forwards' }}>
               <img
-                src="/doctor-bg.png"
+                src="/third-slide.jpeg"
                 alt="Medical equipment"
                 className="rounded-lg shadow-lg object-cover h-full w-full"
               />
