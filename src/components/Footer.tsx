@@ -10,7 +10,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-serif font-semibold mb-6">Shiloh Hospital</h3>
             <p className="text-muted-foreground mb-6">
-              Providing quality healthcare services with compassion and excellence since 1995. 
+              Providing quality healthcare services with compassion and excellence since 2010. 
               Our mission is to deliver exceptional care in a healing environment.
             </p>
             <div className="flex items-center space-x-4">
@@ -32,18 +32,12 @@ const Footer = () => {
             </div>
           </div>
           
-          {/* Column 2: Quick as */}
+          {/* Column 2: Quick Links */}
           <div>
-            <h3 className="text-xl font-serif font-semibold mb-6">Quick as</h3>
+            <h3 className="text-xl font-serif font-semibold mb-6">Quick Links</h3>
             <ul className="space-y-3">
               <li>
-                <a href="/" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
-                  <ArrowRight className="h-4 w-4 mr-2" />
-                  <span>Home</span>
-                </a>
-              </li>
-              <li>
-                <a href="/about" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="#about" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>About Us</span>
                 </a>
@@ -55,19 +49,19 @@ const Footer = () => {
                 </a>
               </li>
               <li>
-                <a href="/departments" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="#facilities" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
-                  <span>Departments</span>
+                  <span>Facilities</span>
                 </a>
               </li>
               <li>
-                <a href="/doctors" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="#testimonials" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
-                  <span>Our Doctors</span>
+                  <span>Testimonials</span>
                 </a>
               </li>
               <li>
-                <a href="/contact" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
+                <a href="#contact" className="inline-flex items-center text-muted-foreground hover:text-primary transition-colors">
                   <ArrowRight className="h-4 w-4 mr-2" />
                   <span>Contact Us</span>
                 </a>
@@ -125,7 +119,7 @@ const Footer = () => {
               <div className="flex">
                 <MapPin className="h-5 w-5 text-primary mr-3 flex-shrink-0 mt-0.5" />
                 <p className="text-muted-foreground">
-                  123 Hospital Road, Victoria Island, Lagos, Nigeria
+                  17, Ajokakan Avenue, Elebu, Oluyole Extension, Ibadan, Nigeria
                 </p>
               </div>
               <div className="flex">

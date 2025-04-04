@@ -1,6 +1,5 @@
 
 import { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import { Menu, X, Phone, Mail } from "lucide-react";
 
 const Navbar = () => {
@@ -33,6 +32,7 @@ const Navbar = () => {
           <nav className="hidden md:flex items-center space-x-8">
             <a href="#about" className={`text-sm font-medium hover:text-primary transition-colors ${isScrolled ? '' : 'text-white'}`}>About Us</a>
             <a href="#services" className={`text-sm font-medium hover:text-primary transition-colors ${isScrolled ? '' : 'text-white'}`}>Services</a>
+            <a href="#facilities" className={`text-sm font-medium hover:text-primary transition-colors ${isScrolled ? '' : 'text-white'}`}>Facilities</a>
             <a href="#testimonials" className={`text-sm font-medium hover:text-primary transition-colors ${isScrolled ? '' : 'text-white'}`}>Testimonials</a>
             <a href="#contact" className={`text-sm font-medium hover:text-primary transition-colors ${isScrolled ? '' : 'text-white'}`}>Contact</a>
           </nav>
@@ -54,6 +54,7 @@ const Navbar = () => {
         <div className="px-4 py-6 space-y-4">
           <a href="#about" onClick={toggleMenu} className="block text-base font-medium hover:text-primary transition-colors">About Us</a>
           <a href="#services" onClick={toggleMenu} className="block text-base font-medium hover:text-primary transition-colors">Services</a>
+          <a href="#facilities" onClick={toggleMenu} className="block text-base font-medium hover:text-primary transition-colors">Facilities</a>
           <a href="#testimonials" onClick={toggleMenu} className="block text-base font-medium hover:text-primary transition-colors">Testimonials</a>
           <a href="#contact" onClick={toggleMenu} className="block text-base font-medium hover:text-primary transition-colors">Contact</a>
         </div>

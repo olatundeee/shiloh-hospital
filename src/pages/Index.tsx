@@ -8,6 +8,7 @@ import TestimonialsSection from "@/components/TestimonialsSection";
 import ContactSection from "@/components/ContactSection";
 import CTASection from "@/components/CTASection";
 import Footer from "@/components/Footer";
+import FacilitiesSection from "@/components/FacilitiesSection";
 
 const Index = () => {
   // Scroll to top on page load
@@ -26,6 +27,9 @@ const Index = () => {
       </div>
       <div id="services">
         <ServicesSection />
+      </div>
+      <div id="facilities">
+        <FacilitiesSection />
       </div>
       <div id="testimonials">
         <TestimonialsSection />

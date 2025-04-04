@@ -6,19 +6,19 @@ const testimonials = [
     quote: "The care I received at Shiloh Hospital was exceptional. The medical staff was attentive, professional, and genuinely concerned about my wellbeing. I couldn't have asked for better care.",
     author: "Mrs. Chioma Okafor",
     role: "Patient",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+    image: "/public/images/third-slide.jpeg",
   },
   {
     quote: "I've been bringing my family to Shiloh Hospital for years, and the quality of care has always been outstanding. The doctors take time to listen and explain everything thoroughly. We trust them completely.",
     author: "Mr. Adebayo Johnson",
     role: "Patient",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+    image: "/public/images/first-slide.jpeg",
   },
   {
     quote: "When I was diagnosed with a heart condition, the cardiology team at Shiloh Hospital provided not only excellent medical care but also emotional support. They made a difficult time much easier to handle.",
     author: "Dr. Emmanuel Nweke",
     role: "Patient",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=200&q=80",
+    image: "/public/images/second-slide.jpeg",
   },
 ];
 
@@ -63,11 +63,13 @@ const TestimonialsSection = () => {
                 </div>
                 <p className="text-xl mb-8">{testimonial.quote}</p>
                 <div className="flex items-center">
-                  <img
-                    src={testimonial.image}
-                    alt={testimonial.author}
-                    className="h-14 w-14 rounded-full object-cover mr-4"
-                  />
+                  <div className="h-14 w-14 rounded-full overflow-hidden mr-4">
+                    <img
+                      src={testimonial.image}
+                      alt={testimonial.author}
+                      className="h-full w-full object-cover"
+                    />
+                  </div>
                   <div className="text-left">
                     <p className="font-semibold">{testimonial.author}</p>
                     <p className="text-muted-foreground text-sm">{testimonial.role}</p>

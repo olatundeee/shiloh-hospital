@@ -20,21 +20,21 @@ const AboutSection = () => {
           <div className="relative grid grid-cols-2 gap-4">
             <div className="col-span-2 transform translate-y-4 opacity-0 animate-fade-in animate-delay-100" style={{ animationFillMode: 'forwards' }}>
               <img
-                src="https://images.unsplash.com/photo-1551190822-a9333d879b1f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                src="/public/images/second-slide.jpeg"
                 alt="Hospital building"
                 className="rounded-lg shadow-lg object-cover h-64 w-full"
               />
             </div>
             <div className="transform translate-y-4 opacity-0 animate-fade-in animate-delay-200" style={{ animationFillMode: 'forwards' }}>
               <img
-                src="https://images.unsplash.com/photo-1504439468489-c8920d796a29?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                src="/public/images/principle-protect.jpeg"
                 alt="Medical staff"
                 className="rounded-lg shadow-lg object-cover h-full w-full"
               />
             </div>
             <div className="transform translate-y-4 opacity-0 animate-fade-in animate-delay-300" style={{ animationFillMode: 'forwards' }}>
               <img
-                src="https://images.unsplash.com/photo-1581056771107-24ca5f033842?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
+                src="/public/images/doctor-bg.png"
                 alt="Medical equipment"
                 className="rounded-lg shadow-lg object-cover h-full w-full"
               />
@@ -47,7 +47,7 @@ const AboutSection = () => {
               About Us
             </div>
             <h2 className="text-3xl md:text-4xl font-serif font-semibold mb-6">
-              Dedicated to Providing Exceptional Healthcare Since 1995
+              Dedicated to Providing Exceptional Healthcare Since 2010
             </h2>
             <p className="text-muted-foreground mb-6">
               Shiloh Hospital, located at 17, Ajokakan Avenue, Elebu, Oluyole Extension, Ibadan, Nigeria, is dedicated to providing exceptional healthcare services to our community.

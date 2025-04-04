@@ -84,7 +84,7 @@ const ContactSection = () => {
             <div>
               <h3 className="font-semibold mb-2">Address</h3>
               <p className="text-muted-foreground text-sm">
-                123 Hospital Road, Victoria Island, Lagos, Nigeria
+                17, Ajokakan Avenue, Elebu, Oluyole Extension, Ibadan, Nigeria
               </p>
             </div>
           </div>
@@ -193,7 +193,7 @@ const ContactSection = () => {
       <div className="mt-16 opacity-0 animate-fade-in animate-delay-400" style={{ animationFillMode: 'forwards' }}>
         <div className="glass-card overflow-hidden rounded-lg h-[400px]">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63427.97620249667!2d3.388925871553304!3d6.429876326992882!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103bf44668ddd591%3A0x2561dfee77669a92!2sVictoria%20Island%2C%20Lagos!5e0!3m2!1sen!2sng!4v1656428798772!5m2!1sen!2sng"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3957.0505027433487!2d3.8904242745992075!3d7.351805312539845!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10398da522ba98a1%3A0xf66cce2a7a5b0c80!2sOluyole%20Extension%2C%20Ibadan%2C%20Nigeria!5e0!3m2!1sen!2sng!4v1712257445835!5m2!1sen!2sng"
             width="100%"
             height="100%"
             style={{ border: 0 }}

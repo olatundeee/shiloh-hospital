@@ -7,7 +7,7 @@ const Hero = () => {
       {/* Hero Background Image */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="https://images.unsplash.com/photo-1631815588090-d4bfec5b1ccb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&h=1080&q=80" 
+          src="/public/images/first-slide.jpeg" 
           alt="Shiloh Hospital" 
           className="w-full h-full object-cover"
         />
@@ -31,9 +31,6 @@ const Hero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 animate-fade-in animate-delay-300">
-            <Button size="lg" asChild>
-              <a href="#contact">Book an Appointment</a>
-            </Button>
             <Button variant="outline" size="lg" className="bg-white/10 backdrop-blur-sm border-white/20 hover:bg-white/20" asChild>
               <a href="#services">Our Services</a>
             </Button>
