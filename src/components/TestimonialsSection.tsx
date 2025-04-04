@@ -6,19 +6,19 @@ const testimonials = [
     quote: "The care I received at Shiloh Hospital was exceptional. The medical staff was attentive, professional, and genuinely concerned about my wellbeing. I couldn't have asked for better care.",
     author: "Mrs. Chioma Okafor",
     role: "Patient",
-    image: "/public/images/third-slide.jpeg",
+    image: "/public/third-slide.jpeg",
   },
   {
     quote: "I've been bringing my family to Shiloh Hospital for years, and the quality of care has always been outstanding. The doctors take time to listen and explain everything thoroughly. We trust them completely.",
     author: "Mr. Adebayo Johnson",
     role: "Patient",
-    image: "/public/images/first-slide.jpeg",
+    image: "/public/first-slide.jpeg",
   },
   {
     quote: "When I was diagnosed with a heart condition, the cardiology team at Shiloh Hospital provided not only excellent medical care but also emotional support. They made a difficult time much easier to handle.",
     author: "Dr. Emmanuel Nweke",
     role: "Patient",
-    image: "/public/images/second-slide.jpeg",
+    image: "/public/second-slide.jpeg",
   },
 ];
 

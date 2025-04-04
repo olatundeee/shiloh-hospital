@@ -20,21 +20,21 @@ const AboutSection = () => {
           <div className="relative grid grid-cols-2 gap-4">
             <div className="col-span-2 transform translate-y-4 opacity-0 animate-fade-in animate-delay-100" style={{ animationFillMode: 'forwards' }}>
               <img
-                src="/public/images/second-slide.jpeg"
+                src="/public/second-slide.jpeg"
                 alt="Hospital building"
                 className="rounded-lg shadow-lg object-cover h-64 w-full"
               />
             </div>
             <div className="transform translate-y-4 opacity-0 animate-fade-in animate-delay-200" style={{ animationFillMode: 'forwards' }}>
               <img
-                src="/public/images/principle-protect.jpeg"
+                src="/public/principle-protect.jpeg"
                 alt="Medical staff"
                 className="rounded-lg shadow-lg object-cover h-full w-full"
               />
             </div>
             <div className="transform translate-y-4 opacity-0 animate-fade-in animate-delay-300" style={{ animationFillMode: 'forwards' }}>
               <img
-                src="/public/images/doctor-bg.png"
+                src="/public/doctor-bg.png"
                 alt="Medical equipment"
                 className="rounded-lg shadow-lg object-cover h-full w-full"
               />
