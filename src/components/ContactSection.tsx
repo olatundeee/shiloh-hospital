@@ -26,7 +26,7 @@ const ContactSection = () => {
     console.log("Form submitted:", formData);
     toast({
       title: "Message Sent!",
-      description: "Thank you for reaching out. We'll get back to you shortly.",
+      description: "Thank you for reaching out. We'll get back to you shortly. For faster response, please give us a call",
     });
     setFormData({
       name: "",
@@ -45,7 +45,7 @@ const ContactSection = () => {
         </div>
         <h2 className="section-title">Get in Touch</h2>
         <p className="section-subtitle">
-          Have questions or want to schedule an appointment? Reach out to us and our team will be happy to assist you.
+          Have questions or want to schedule an appointment? Reach out to us and our team will be happy to assist you. For faster response, please give us a call.
         </p>
       </div>
       
@@ -59,8 +59,7 @@ const ContactSection = () => {
             </div>
             <div>
               <h3 className="font-semibold mb-2">Phone</h3>
-              <p className="text-muted-foreground text-sm">+234 803 123 4567</p>
-              <p className="text-muted-foreground text-sm">+234 701 987 6543</p>
+              <p className="text-muted-foreground text-sm">+234 803 573 4000</p>
             </div>
           </div>
           
@@ -72,7 +71,6 @@ const ContactSection = () => {
             <div>
               <h3 className="font-semibold mb-2">Email</h3>
               <p className="text-muted-foreground text-sm">contact@shilohhospital.ng</p>
-              <p className="text-muted-foreground text-sm">info@shilohhospital.ng</p>
             </div>
           </div>
           

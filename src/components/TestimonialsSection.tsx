@@ -63,13 +63,13 @@ const TestimonialsSection = () => {
                 </div>
                 <p className="text-xl mb-8">{testimonial.quote}</p>
                 <div className="flex items-center">
-                  <div className="h-14 w-14 rounded-full overflow-hidden mr-4">
+                  {/*<div className="h-14 w-14 rounded-full overflow-hidden mr-4">
                     <img
                       src={testimonial.image}
                       alt={testimonial.author}
                       className="h-full w-full object-cover"
                     />
-                  </div>
+                  </div>*/}
                   <div className="text-left">
                     <p className="font-semibold">{testimonial.author}</p>
                     <p className="text-muted-foreground text-sm">{testimonial.role}</p>
