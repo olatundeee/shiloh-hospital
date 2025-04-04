@@ -2,7 +2,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { Menu, X, Phone, Mail } from "lucide-react";
-import { Button } from "@/components/ui/button";
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -32,16 +31,10 @@ const Navbar = () => {
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#" className="text-sm font-medium hover:text-primary transition-colors">Home</a>
             <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">About Us</a>
             <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">Services</a>
-            <a href="#stats" className="text-sm font-medium hover:text-primary transition-colors">Stats</a>
-            <a href="#doctors" className="text-sm font-medium hover:text-primary transition-colors">Doctors</a>
             <a href="#testimonials" className="text-sm font-medium hover:text-primary transition-colors">Testimonials</a>
             <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">Contact</a>
-            <Button className="animate-scale-in" onClick={() => {
-              document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-            }}>Book Appointment</Button>
           </nav>
           
           {/* Mobile Navigation Toggle */}
@@ -59,17 +52,10 @@ const Navbar = () => {
       {/* Mobile Navigation Menu */}
       <div className={`md:hidden transition-all duration-300 ease-in-out transform ${isMenuOpen ? "max-h-screen opacity-100" : "max-h-0 opacity-0 pointer-events-none"} overflow-hidden bg-white/95 backdrop-blur-sm`}>
         <div className="px-4 py-6 space-y-4">
-          <a href="#" onClick={toggleMenu} className="block text-base font-medium hover:text-primary transition-colors">Home</a>
           <a href="#about" onClick={toggleMenu} className="block text-base font-medium hover:text-primary transition-colors">About Us</a>
           <a href="#services" onClick={toggleMenu} className="block text-base font-medium hover:text-primary transition-colors">Services</a>
-          <a href="#stats" onClick={toggleMenu} className="block text-base font-medium hover:text-primary transition-colors">Stats</a>
-          <a href="#doctors" onClick={toggleMenu} className="block text-base font-medium hover:text-primary transition-colors">Doctors</a>
           <a href="#testimonials" onClick={toggleMenu} className="block text-base font-medium hover:text-primary transition-colors">Testimonials</a>
           <a href="#contact" onClick={toggleMenu} className="block text-base font-medium hover:text-primary transition-colors">Contact</a>
-          <Button className="w-full" onClick={() => {
-            document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' });
-            setIsMenuOpen(false);
-          }}>Book Appointment</Button>
         </div>
         
         <div className="px-4 py-6 border-t border-border">
