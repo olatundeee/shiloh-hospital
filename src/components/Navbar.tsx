@@ -25,23 +25,23 @@ const Navbar = () => {
           {/* Logo */}
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center">
-              <span className="text-2xl font-serif font-bold text-primary">Shiloh Hospital</span>
+              <span className={`text-2xl font-serif font-bold ${isScrolled ? 'text-primary' : 'text-white'}`}>Shiloh Hospital</span>
             </Link>
           </div>
           
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
-            <a href="#about" className="text-sm font-medium hover:text-primary transition-colors">About Us</a>
-            <a href="#services" className="text-sm font-medium hover:text-primary transition-colors">Services</a>
-            <a href="#testimonials" className="text-sm font-medium hover:text-primary transition-colors">Testimonials</a>
-            <a href="#contact" className="text-sm font-medium hover:text-primary transition-colors">Contact</a>
+            <a href="#about" className={`text-sm font-medium hover:text-primary transition-colors ${isScrolled ? '' : 'text-white'}`}>About Us</a>
+            <a href="#services" className={`text-sm font-medium hover:text-primary transition-colors ${isScrolled ? '' : 'text-white'}`}>Services</a>
+            <a href="#testimonials" className={`text-sm font-medium hover:text-primary transition-colors ${isScrolled ? '' : 'text-white'}`}>Testimonials</a>
+            <a href="#contact" className={`text-sm font-medium hover:text-primary transition-colors ${isScrolled ? '' : 'text-white'}`}>Contact</a>
           </nav>
           
           {/* Mobile Navigation Toggle */}
           <div className="md:hidden">
             <button
               onClick={toggleMenu}
-              className="p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary"
+              className={`p-2 rounded-md focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-primary ${isScrolled ? '' : 'text-white'}`}
             >
               {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
